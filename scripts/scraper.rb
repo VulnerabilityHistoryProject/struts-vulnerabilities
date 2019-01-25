@@ -13,6 +13,8 @@ class StrutsScraper
 		page = @mech.get @url
 		puts "Crawling: " + page.uri.to_s
 		page.links.each do |link|
+			# remove all links that aren't to S2s and don't follow links that have
+			# labels (to avoid repeating links).
 			if(/\/S2-/=~link.href and not /label/=~link.node.to_s)
 				#puts link.href
 				spage = @mech.get link
