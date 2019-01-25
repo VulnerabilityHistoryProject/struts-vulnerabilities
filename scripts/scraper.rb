@@ -2,13 +2,13 @@ require 'mechanize'
 
 class StrutsScraper
 
-    def initialize(url)
-        @url = url
+    def initialize()
+        @url = "https://cwiki.apache.org/confluence/display/WW/Security+Bulletins"
         @foundPages = {}
 	    @cves= Array.new
 	    @mech = Mechanize.new
     end
-    
+
 	def crawl()
 		page = @mech.get @url
 
