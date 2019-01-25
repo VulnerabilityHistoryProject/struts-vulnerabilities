@@ -1,7 +1,7 @@
 # ApacheStruts-vulnerabilities
 Curated vulnerability data for vulnerabilityhistory.org
 
-###How to Run:
+##How to update CVE .yml files:
 1. Make sure you have ruby installed
 2. Navigate to "apachestruts-vulnerabilities"
 3. Open Command Prompt/Terminal in this folder
