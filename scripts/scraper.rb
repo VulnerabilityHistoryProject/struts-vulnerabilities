@@ -11,10 +11,9 @@ class StrutsScraper
 
 	def crawl()
 		page = @mech.get @url
-
 		puts "Crawling: " + page.uri.to_s
 		page.links.each do |link|
-			if(/\/S2-/=~link.href)
+			if(/\/S2-/=~link.href and not /label/=~link.node.to_s)
 				#puts link.href
 				spage = @mech.get link
 				cve_find(spage)
