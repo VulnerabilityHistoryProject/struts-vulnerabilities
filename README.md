@@ -6,4 +6,4 @@ Curated vulnerability data for vulnerabilityhistory.org
 2. Navigate to "apachestruts-vulnerabilities"
 3. Open Command Prompt/Terminal in this folder
 4. Type "gem install mechanize"
-5. Type "ruby scripts/main.rb
+5. Type "ruby scripts/main.rb"
