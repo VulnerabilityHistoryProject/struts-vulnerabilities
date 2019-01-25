@@ -1,9 +1,15 @@
 # apachestruts-vulnerabilities
 Curated vulnerability data for vulnerabilityhistory.org
 
-###How to update CVE .yml files:
+### First time setup:
 1. Make sure you have ruby installed
-2. Navigate to repo root directory
-3. Open Command Prompt/Terminal in this folder
-4. Type `gem install mechanize`
-5. Type `rake pull:cves`
+2. Clone repo
+3. Navigate to repo root directory
+4. Open Command Prompt/Terminal in this folder
+5. Type `gem install mechanize`
+6. Type `rake pull:cves`
+
+### How to update CVE .yml files:
+1. Navigate to repo root directory
+2. Open Command Prompt/Terminal in this folder
+3. Type `rake pull:cves`
