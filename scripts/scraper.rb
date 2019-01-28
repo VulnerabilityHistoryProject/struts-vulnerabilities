@@ -4,7 +4,6 @@ class StrutsScraper
 
     def initialize()
         @url = "https://cwiki.apache.org/confluence/display/WW/Security+Bulletins"
-        @foundPages = {}
 	    @cves= Array.new
 	    @mech = Mechanize.new
     end
