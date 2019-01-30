@@ -1,5 +1,7 @@
-def insertLinesDir(line_above_regex, dir_path)
-  text = readInput()
+# Instert multiple lines into all yml files in a directory
+def insertLinesDir(dir_path, line_above_regex, text)
+  # replace tabs with spaces
+  text = text.gsub(/\t/,'  ')
   regex = /#{line_above_regex}/
   dir_path = dir_path + '/*.yml'
   puts dir_path
@@ -8,6 +10,7 @@ def insertLinesDir(line_above_regex, dir_path)
     insertLine(regex, text, file)
   end
 end
+
 
 # inserts a single line into all yml files in a directory
 def insertLineDir(line_above_regex, text, dir_path)
@@ -18,6 +21,7 @@ def insertLineDir(line_above_regex, text, dir_path)
     insertLine(regex, text, file)
   end
 end
+
 
 # inserts a single line into a single file
 def insertLine(regex, text, file_path)
@@ -33,24 +37,50 @@ def insertLine(regex, text, file_path)
   saveyml(file_path, newymltxt)
 end
 
-def readInput()
-  allinput =""
-  while (line = gets) != "\n"
-    allinput << line
-  end
-  allinput.chomp
+
+# get the lines you want to insert into file line by line
+def readInputLines()
+  puts "Enter your input. When finished press \'Tab\' then \'Enter'\."
+  #detect a tab with an enter and remove them from the end
+  input = gets("\t\n").chomp("\t\n")
+  input
 end
+
+
+def readFile(file_path)
+  if File.file?(file_path)
+    return File.read(file_path).chomp
+  else
+    return nil
+  end
+end
+
 
 def saveyml(file_path, txt)
   File.open(file_path, 'w+') {|f| f.write(txt)}
     puts "Saved " + file_path
 end
 
-puts "Enter the regex for the line above: "
-line_above = gets.chomp
-#puts "Enter the text you want to insert: "
-#text = gets.chomp
-puts "Enter the dir path:"
-dir_path = gets.chomp
-insertLinesDir(line_above, dir_path)
-puts "Done"
+
+
+puts "WARNING: PLEASE BACKUP ALL CVES IN CHOSEN DIRECTORY BEFORE USING THIS SCRIPT"
+puts "Remember to manually add the text to the skeleton file"
+dir_path = ""
+args = []
+ARGV.each {|str| args.push(str)}
+ARGV.clear
+if(File.directory?(args[0]))
+  dir_path = args[0]
+else
+  abort("Invalid first argument. Please use a valid directory name")
+end
+regex = args[1]
+input = ""
+if(args[2].casecmp?("manual"))
+  input = readInputLines()
+elsif(File.file?(args[2]))
+  input = readFile(args[2])
+else
+  abort("Invalid third argument. Please use either a file name or \'manual\'")
+end
+insertLinesDir(dir_path, regex, input)
