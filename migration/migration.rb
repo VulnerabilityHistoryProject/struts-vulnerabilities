@@ -1,4 +1,4 @@
-# Instert multiple lines into all yml files in a directory
+# Insert multiple lines into all yml files in a directory
 def insertLinesDir(dir_path, line_above_regex, text)
   # replace tabs with spaces
   text = text.gsub(/\t/,'  ')
@@ -13,6 +13,7 @@ end
 
 
 # inserts a single line into all yml files in a directory
+# Not used
 def insertLineDir(line_above_regex, text, dir_path)
   regex = /#{line_above_regex}/
   dir_path = dir_path + '/*.yml'
@@ -61,21 +62,24 @@ def saveyml(file_path, txt)
     puts "Saved " + file_path
 end
 
-
-
-puts "WARNING: PLEASE BACKUP ALL CVES IN CHOSEN DIRECTORY BEFORE USING THIS SCRIPT"
-puts "Remember to manually add the text to the skeleton file"
+# Deep clone ARGV and clear so gets works properly
 dir_path = ""
 args = []
 ARGV.each {|str| args.push(str)}
 ARGV.clear
+
+# Process first arg
 if(File.directory?(args[0]))
   dir_path = args[0]
 else
   abort("Invalid first argument. Please use a valid directory name")
 end
+
+# Process second arg
 regex = args[1]
 input = ""
+
+# Process third arg
 if(args[2].casecmp?("manual"))
   input = readInputLines()
 elsif(File.file?(args[2]))
@@ -83,4 +87,18 @@ elsif(File.file?(args[2]))
 else
   abort("Invalid third argument. Please use either a file name or \'manual\'")
 end
-insertLinesDir(dir_path, regex, input)
+
+# User warning
+puts "WARNING: PLEASE BACKUP ALL CVES IN CHOSEN DIRECTORY BEFORE USING THIS SCRIPT"
+puts "Remember to manually add the text to the skeleton file"
+puts "Take care in making sure your regex is unique to the line above the
+insertion point. If not, the text may be inserted multiple times"
+puts "Close all .yml file before running this script"
+puts "Make sure the regex is within quotes"
+puts "Would you still like to run this script? (Y|N)"
+continue = gets.chomp
+if(continue.casecmp?('y'))
+  insertLinesDir(dir_path, regex, input)
+else
+  abort("Migration Aborted")
+end
