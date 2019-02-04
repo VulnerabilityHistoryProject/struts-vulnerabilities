@@ -1,20 +1,22 @@
 # Insert multiple lines into all yml files in a directory
-def insertLinesDir(dir_path, line_above_regex, text)
+def insert_lines_dir(dir_path, line_above_regex, text_file)
   # replace tabs with spaces
+  text = read_file(text_file)
   text = text.gsub(/\t/,'  ')
   regex = /#{line_above_regex}/
+  puts regex.to_s
   dir_path = dir_path + '/*.yml'
   puts dir_path
   Dir.glob(dir_path) do |file|
     puts "file: " + file.to_s
-    insertLine(regex, text, file)
+    insert_line(regex, text, file)
   end
 end
 
 
 # inserts a single line into all yml files in a directory
 # Not used
-def insertLineDir(line_above_regex, text, dir_path)
+def insert_line_dir(line_above_regex, text, dir_path)
   regex = /#{line_above_regex}/
   dir_path = dir_path + '/*.yml'
   puts dir_path
@@ -24,8 +26,8 @@ def insertLineDir(line_above_regex, text, dir_path)
 end
 
 
-# inserts a single line into a single file
-def insertLine(regex, text, file_path)
+# inserts lines into a single file
+def insert_line(regex, text, file_path)
   newymltxt = ""
   puts file_path
   file = File.open(file_path, "r")
@@ -35,12 +37,13 @@ def insertLine(regex, text, file_path)
       newymltxt << "\n" + text + "\n"
     end
   end
-  saveyml(file_path, newymltxt)
+  save_yml(file_path, newymltxt)
 end
 
 
-# get the lines you want to insert into file line by line
-def readInputLines()
+# Get the lines you want to insert into file line by line
+# No longer used
+def read_input_lines()
   puts "Enter your input. When finished press \'Tab\' then \'Enter'\."
   #detect a tab with an enter and remove them from the end
   input = gets("\t\n").chomp("\t\n")
@@ -48,7 +51,7 @@ def readInputLines()
 end
 
 
-def readFile(file_path)
+def read_file(file_path)
   if File.file?(file_path)
     return File.read(file_path).chomp
   else
@@ -57,11 +60,12 @@ def readFile(file_path)
 end
 
 
-def saveyml(file_path, txt)
+def save_yml(file_path, txt)
   File.open(file_path, 'w+') {|f| f.write(txt)}
     puts "Saved " + file_path
 end
 
+=begin
 # Deep clone ARGV and clear so gets works properly
 dir_path = ""
 args = []
@@ -77,13 +81,13 @@ end
 
 # Process second arg
 regex = args[1]
-input = ""
 
 # Process third arg
+input = ""
 if(args[2].casecmp?("manual"))
   input = readInputLines()
 elsif(File.file?(args[2]))
-  input = readFile(args[2])
+  input = read_file(args[2])
 else
   abort("Invalid third argument. Please use either a file name or \'manual\'")
 end
@@ -98,7 +102,8 @@ puts "Make sure the regex is within quotes"
 puts "Would you still like to run this script? (Y|N)"
 continue = gets.chomp
 if(continue.casecmp?('y'))
-  insertLinesDir(dir_path, regex, input)
+  insert_lines_dir(dir_path, regex, input)
 else
   abort("Migration Aborted")
 end
+=end
