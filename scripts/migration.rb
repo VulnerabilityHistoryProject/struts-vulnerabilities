@@ -1,14 +1,16 @@
+require 'yaml'
 # Insert multiple lines into all yml files in a directory
 def insert_lines_dir(dir_path, line_above_regex, text_file)
+  validate_yml(text_file, read_file(text_file))
+  validate_ymls(dir_path)
   # replace tabs with spaces
   text = read_file(text_file)
   text = text.gsub(/\t/,'  ')
   regex = /#{line_above_regex}/
-  puts regex.to_s
   dir_path = dir_path + '/*.yml'
   puts dir_path
   Dir.glob(dir_path) do |file|
-    puts "file: " + file.to_s
+    #puts "file: " + file.to_s
     insert_line(regex, text, file)
   end
 end
@@ -29,7 +31,6 @@ end
 # inserts lines into a single file
 def insert_line(regex, text, file_path)
   newymltxt = ""
-  puts file_path
   file = File.open(file_path, "r")
   file.each_line do |line|
     newymltxt << line
@@ -59,10 +60,35 @@ def read_file(file_path)
   end
 end
 
+def validate_ymls(dir_path)
+  dir_path = dir_path + '/*.yml'
+  Dir.glob(dir_path) do |file_path|
+    file_txt = read_file(file_path)
+    begin
+      Psych.parse(file_txt, file_path)
+    rescue Psych::SyntaxError => ex
+      abort("Migration failed:" + ex.message)
+    end
+  end
+end
+
+def validate_yml(file_path, txt)
+  begin
+    Psych.parse(txt, file_path)
+  rescue Psych::SyntaxError => ex
+    abort("Migration failed:" + ex.message)
+  end
+end
+
 
 def save_yml(file_path, txt)
-  File.open(file_path, 'w+') {|f| f.write(txt)}
-    puts "Saved " + file_path
+  begin
+    Psych.parse(txt, file_path)
+    File.open(file_path, 'w+') {|f| f.write(txt)}
+      puts "Migrated: " + file_path
+  rescue Psych::SyntaxError => ex
+    puts ex.message
+  end
 end
 
 =begin
