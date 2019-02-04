@@ -25,10 +25,12 @@ class StrutsScraper
 
 	def cve_find(page, sb)
 		html = page.body
-		cvematch = /CVE-\d{4}-\d+/.match(html)
-		unless cvematch.nil?
-			puts "Found: " + cvematch.to_s
-      @cves[cvematch.to_s] = sb
+		cvematches = html.scan(/CVE-\d{4}-\d+/)
+		unless cvematches.empty?
+      cvematches.each do |cve|
+			  puts "Found: " + cve.to_s
+        @cves[cve.to_s] = sb
+      end
 		end
 	end
 
