@@ -13,3 +13,6 @@ Curated vulnerability data for vulnerabilityhistory.org
 1. Navigate to repo root directory
 2. Open Command Prompt/Terminal in this folder
 3. Type `rake pull:cves`
+
+### Clone struts repo:
+1. Type `rake pull:repo`
