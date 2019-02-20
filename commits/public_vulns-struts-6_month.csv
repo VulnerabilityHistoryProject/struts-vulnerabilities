@@ -1,0 +1,4 @@
+filepath
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/{JacksonJsonHandler.java => JacksonLibHandler.java}
+plugins/rest/src/main/resources/struts-plugin.xml
+plugins/rest/src/test/java/org/apache/struts2/rest/handler/{JacksonJsonHandlerTest.java => JacksonLibHandlerTest.java}

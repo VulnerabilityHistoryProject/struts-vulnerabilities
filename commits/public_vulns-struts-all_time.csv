@@ -1,0 +1,357 @@
+filepath
+xwork-core/src/main/java/com/opensymphony/xwork2/interceptor/ParametersInterceptor.java
+xwork-core/src/test/java/com/opensymphony/xwork2/interceptor/ParametersInterceptorTest.java
+xwork-core/src/main/java/com/opensymphony/xwork2/DefaultActionProxy.java
+pom.xml
+xwork-core/src/main/java/com/opensymphony/xwork2/ognl/OgnlUtil.java
+xwork-core/src/main/java/com/opensymphony/xwork2/ognl/OgnlValueStack.java
+xwork-core/src/main/java/com/opensymphony/xwork2/util/ValueStack.java
+xwork-core/src/test/java/com/opensymphony/xwork2/StubValueStack.java
+core/src/main/java/org/apache/struts2/interceptor/ExecuteAndWaitInterceptor.java
+core/src/main/java/org/apache/struts2/interceptor/TokenSessionStoreInterceptor.java
+core/src/main/java/org/apache/struts2/util/TokenHelper.java
+core/src/test/java/org/apache/struts2/util/TokenHelperTest.java
+core/src/test/java/org/apache/struts2/views/jsp/ui/TokenTagTest.java
+core/src/main/java/org/apache/struts2/StrutsConstants.java
+core/src/main/java/org/apache/struts2/config/BeanSelectionProvider.java
+xwork-core/src/main/java/com/opensymphony/xwork2/XWorkConstants.java
+xwork-core/src/main/java/com/opensymphony/xwork2/config/impl/DefaultConfiguration.java
+xwork-core/src/main/java/com/opensymphony/xwork2/config/providers/XWorkConfigurationProvider.java
+xwork-core/src/main/java/com/opensymphony/xwork2/ognl/SecurityMemberAccess.java
+core/src/main/java/org/apache/struts2/views/util/DefaultUrlHelper.java
+core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java
+core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java
+xwork-core/src/main/java/com/opensymphony/xwork2/util/OgnlTextParser.java
+xwork-core/src/test/java/com/opensymphony/xwork2/util/TextParseUtilTest.java
+apps/showcase/src/main/webapp/tags/non-ui/actionPrefix/actionPrefixExample.ftl
+core/src/main/java/org/apache/struts2/dispatcher/mapper/ParameterAction.java
+core/src/main/resources/org/apache/struts2/default.properties
+src/site/resources/archetype-catalog.xml
+core/src/test/java/org/apache/struts2/dispatcher/mapper/Restful2ActionMapperTest.java
+core/src/test/java/org/apache/struts2/views/jsp/ActionTagTest.java
+core/src/test/java/org/apache/struts2/views/jsp/ui/FormTagTest.java
+plugins/rest/src/main/java/org/apache/struts2/rest/RestActionMapper.java
+plugins/rest/src/test/java/org/apache/struts2/rest/RestActionMapperTest.java
+core/src/main/resources/struts-default.xml
+xwork-core/src/main/java/com/opensymphony/xwork2/ExcludedPatterns.java
+core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java
+core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java
+xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java
+xwork-core/src/test/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsCheckerTest.java
+xwork-core/src/test/resources/xwork-param-test.xml
+apps/blank/src/main/resources/example.xml
+apps/blank/src/main/resources/struts.xml
+apps/blank/src/main/webapp/WEB-INF/web.xml
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/error.jsp
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/example/HelloWorld.jsp
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/example/Login.jsp
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/example/Menu.jsp
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/example/Missing.jsp
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/example/Register.jsp
+apps/blank/src/main/webapp/{WEB-INF/jsp => }/example/Welcome.jsp
+apps/showcase/src/main/resources/struts-actionchaining.xml
+apps/showcase/src/main/resources/struts-ajax.xml
+apps/showcase/src/main/resources/struts-chat.xml
+apps/showcase/src/main/resources/struts-conversion.xml
+apps/showcase/src/main/resources/struts-fileupload.xml
+apps/showcase/src/main/resources/struts-freemarker.xml
+apps/showcase/src/main/resources/struts-hangman.xml
+apps/showcase/src/main/resources/struts-integration.xml
+apps/showcase/src/main/resources/struts-interactive.xml
+apps/showcase/src/main/resources/struts-model-driven.xml
+apps/showcase/src/main/resources/struts-tags-non-ui.xml
+apps/showcase/src/main/resources/struts-tags-ui.xml
+apps/showcase/src/main/resources/struts-tiles.xml
+apps/showcase/src/main/resources/struts-token.xml
+apps/showcase/src/main/resources/struts-validation.xml
+apps/showcase/src/main/resources/struts-wait.xml
+apps/showcase/src/main/resources/struts.xml
+apps/showcase/src/main/webapp/{WEB-INF => }/actionchaining/actionChainingResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/AjaxResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/AjaxResult2.js
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/AjaxResult3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/autocompleter/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/bind/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/commonInclude.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/footer.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/options.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotebutton/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example1.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example10.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example4.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example5.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example6.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example7.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example8.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/example9.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotediv/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remoteforms/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/remotelink/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example1.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example4.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example5.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example5Ok.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/example6.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/nodecorate/panel1.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/nodecorate/panel2.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/nodecorate/panel2Submit.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/nodecorate/panel3.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tabbedpanel/nodecorate/panel3Submit.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/testjs.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tree/getCategory.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tree/partialChunkHeader.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tree/toggle.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/tree/tree.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/ajax/widgets/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/chatLogin.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/createRoom.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/messagesAvailableInRoom.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/roomSelection.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/roomsAvailable.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/sendMessageToRoomResult.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/showRoom.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/usersAvailable.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/chat/usersAvailableInRoom.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/Address.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/AddressAction.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/EnumTypeConverter.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/OperationsEnum.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/OperationsEnumAction.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/OperationsEnumActionConversion.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/Person.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/PersonAction.java.txt
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/enterAddressInfo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/enterOperations.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/enterPersonInfo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/showAddressInfo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/showOperations.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/conversion/showPersonInfo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/customTemplateDir/customTheme/ftlCustomTemplate.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/customTemplateDir/customTheme/jspCustomTemplate.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/date.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/empmanager/editEmployee.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/empmanager/editSkill.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/empmanager/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/empmanager/listEmployees.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/empmanager/listSkills.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/filedownload/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/fileupload/multipleUploadUsingArray.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/fileupload/multipleUploadUsingList.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/fileupload/upload-success.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/fileupload/upload.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/freemarker/customFreemarkerManagerUsage.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/freemarker/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/freemarker/standardTags.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/blank.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/hangmanAjax.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/hangmanNonAjax.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/updateCharacterAvailable.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/updateGuessLeft.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/updateScaffold.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/hangman/updateVocabCharacters.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/help.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/integration/modelDriven.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/integration/modelDrivenResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/demo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/example-action.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/jsp_0.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/jsp_1.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/jsp_2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/jsp_3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/jsp_4.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_0.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_1.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_4.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_5.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_6.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_7.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/interactive/ognl_8.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/jsf/employee/edit.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/jsf/employee/list.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/jsf/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/modelDriven/modelDriven.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/modelDriven/modelDrivenResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/person/edit-person.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/person/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/person/list-people.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/person/new-person.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/showcase.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionPrefix/actionPrefix.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionPrefix/actionPrefixExample.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionPrefix/methodPrefix.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionPrefix/normalSubmit.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionPrefix/redirectActionPrefix.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionTag/includedPage.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionTag/includedPage2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionTag/includedPage3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/actionTag/showActionTagDemo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/date.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/debug.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/ifTag/testIf.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/ifTag/testIf.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/appendIteratorTagDemoResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/iteratorGeneratorTagDemoResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/mergeIteratorTagDemoResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/showAppendIteratorTagDemo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/showIteratorGeneratorTagDemo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/showMergeIteratorTagDemo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/subsetIteratorTagDemo.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/non-ui/iteratorTag/subsetIteratorTagDemoResult.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/actionTagExampleCalled.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/actionTagExampleCalling.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/componentTagExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/datepicker/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/dynamicTreeSelect.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/example.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/example.vm
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/exampleSubmited.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/exampleSubmited.vm
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/images/backgroundImage.jpg
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/images/leopard.jpg
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/lotsOfOptiontransferselect.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/lotsOfOptiontransferselectSubmit.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/moreSelects.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/moreSelectsSubmit.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/staticTreeSelect.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/timepicker/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/treeExampleAjaxDynamic.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/treeExampleAjaxDynamic.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/treeExampleDynamic.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tags/ui/treeExampleStatic.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/template/xhtml/mytemplate.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tiles/body.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tiles/body.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tiles/header.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/tiles/layout.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/tiles/layout.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/token/doublePost.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/token/example1.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/token/example2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/token/example3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/token/example4.ftl
+apps/showcase/src/main/webapp/{WEB-INF => }/token/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/token/transferDone.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/clientSideValidationExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/fieldValidatorsExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/footer.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/nonFieldValidatorsExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/quiz-ajax.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/quiz-basic.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/quiz-client-css.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/quiz-client.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/quiz-success.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/storeErrorsAcrossRequestCancel.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/storeErrorsAcrossRequestExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/storeErrorsAcrossRequestOk.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/successClientSideValidationExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/successFieldValidatorsExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/successNonFieldValidatorsExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/successVisitorValidatorsExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/validation/visitorValidatorsExample.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/viewSource.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/wait/complete.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/wait/example1.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/wait/example2.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/wait/example3.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/wait/index.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/wait/wait.jsp
+apps/showcase/src/main/webapp/{WEB-INF => }/xslt/index.jsp
+apps/mailreader/src/main/java/mailreader-support.xml
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/ChangePassword.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/Error.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/Footer.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/Login.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/MainMenu.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/Registration.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/Subscription.jsp
+apps/mailreader/src/main/webapp/{WEB-INF/jsp => }/Welcome.jsp
+apps/showcase/src/main/resources/struts-filedownload.xml
+apps/showcase/src/main/resources/struts-jsf.xml
+apps/showcase/src/main/webapp/WEB-INF/ajax/autocompleter/index.jsp
+apps/showcase/src/main/webapp/WEB-INF/ajax/commonInclude.jsp
+apps/showcase/src/main/webapp/WEB-INF/ajax/footer.jsp
+apps/showcase/src/main/webapp/WEB-INF/ajax/index.jsp
+apps/showcase/src/main/webapp/{ => WEB-INF}/customTemplateDir/customTheme/ftlCustomTemplate.ftl
+apps/showcase/src/main/webapp/{ => WEB-INF}/customTemplateDir/customTheme/jspCustomTemplate.jsp
+apps/showcase/src/main/webapp/WEB-INF/decorators/main.jsp
+apps/showcase/src/main/webapp/WEB-INF/empmanager/index.jsp
+apps/showcase/src/main/webapp/WEB-INF/person/index.jsp
+apps/showcase/src/main/webapp/{ => WEB-INF}/template/xhtml/mytemplate.jsp
+apps/showcase/src/main/webapp/WEB-INF/tiles.xml
+apps/showcase/src/main/webapp/WEB-INF/token/doublePost.jsp
+apps/showcase/src/main/webapp/{token/index.html => WEB-INF/token/index.jsp}
+apps/showcase/src/main/webapp/WEB-INF/token/transferDone.jsp
+apps/showcase/src/main/webapp/WEB-INF/validation/index.jsp
+apps/showcase/src/main/webapp/WEB-INF/wait/complete.jsp
+apps/showcase/src/main/webapp/{wait/index.html => WEB-INF/wait/index.jsp}
+apps/showcase/src/main/webapp/WEB-INF/wait/wait.jsp
+apps/showcase/src/main/webapp/ajax/index.html
+apps/showcase/src/main/webapp/person/index.html
+apps/showcase/src/main/webapp/skill/index.html
+core/src/main/java/org/apache/struts2/interceptor/BackgroundProcess.java
+xwork-core/src/test/java/com/opensymphony/xwork2/ognl/OgnlUtilTest.java
+core/src/main/java/org/apache/struts2/views/xslt/XSLTResult.java
+xwork-core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java
+xwork-core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java
+xwork-core/src/main/java/com/opensymphony/xwork2/DefaultActionInvocation.java
+core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java
+core/src/test/java/com/opensymphony/xwork2/validator/URLValidatorTest.java
+plugins/convention/src/main/java/org/apache/struts2/convention/ConventionsServiceImpl.java
+plugins/convention/src/main/java/org/apache/struts2/convention/ConventionUnknownHandler.java
+core/src/main/java/org/apache/struts2/views/freemarker/FreemarkerManager.java
+core/src/main/java/org/apache/struts2/views/freemarker/FreemarkerResult.java
+core/src/test/java/org/apache/struts2/views/freemarker/FreeMarkerResultTest.java
+plugins/rest/src/main/resources/struts-plugin.xml
+core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java
+core/src/test/java/org/apache/struts2/interceptor/FileUploadInterceptorTest.java
+core/src/main/java/org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java
+core/src/main/java/org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequest.java
+core/src/main/java/org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java
+plugins/rest/pom.xml
+xwork-core/src/main/java/com/opensymphony/xwork2/util/ProxyUtil.java
+xwork-core/src/test/java/com/opensymphony/xwork2/spring/ActionsFromSpringTest.java
+xwork-core/src/test/resources/com/opensymphony/xwork2/spring/actionContext-xwork.xml
+plugins/spring/src/main/resources/struts-plugin.xml
+xwork-core/src/test/java/com/opensymphony/xwork2/ognl/SecurityMemberAccessProxyTest.java
+core/src/main/java/com/opensymphony/xwork2/interceptor/ChainingInterceptor.java
+core/src/main/java/com/opensymphony/xwork2/ognl/SecurityMemberAccess.java
+core/src/main/java/com/opensymphony/xwork2/util/ProxyUtil.java
+core/src/test/java/com/opensymphony/xwork2/spring/ActionsFromSpringTest.java
+core/src/test/java/com/opensymphony/xwork2/spring/SpringProxyUtilTest.java
+core/src/test/java/com/opensymphony/xwork2/spring/TestAspect.java
+core/src/test/resources/com/opensymphony/xwork2/spring/actionContext-xwork.xml
+core/src/main/java/com/opensymphony/xwork2/ognl/OgnlUtil.java
+core/src/main/java/com/opensymphony/xwork2/ognl/OgnlValueStack.java
+core/src/test/java/com/opensymphony/xwork2/ognl/SecurityMemberAccessProxyTest.java
+core/src/test/java/com/opensymphony/xwork2/TestSubBean.java
+core/src/test/resources/com/opensymphony/xwork2/spring/actionContext-spring.xml
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/ContentTypeHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/AbstractContentTypeHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/FormUrlEncodedHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/HtmlHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/JacksonLibHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/JsonLibHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/MultipartFormDataHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/XStreamHandler.java
+plugins/rest/src/main/java/org/apache/struts2/rest/ContentTypeHandlerManager.java
+plugins/rest/src/main/java/org/apache/struts2/rest/ContentTypeInterceptor.java
+plugins/rest/src/main/java/org/apache/struts2/rest/RestActionInvocation.java
+plugins/rest/src/main/java/org/apache/struts2/rest/RestWorkflowInterceptor.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/AllowedClassNames.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/AllowedClasses.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/XStreamPermissionProvider.java
+core/src/test/java/org/apache/struts2/util/OgnlUtilStrutsTest.java
+plugins/rest/src/main/java/org/apache/struts2/rest/handler/{JacksonJsonHandler.java => JacksonLibHandler.java}
+plugins/rest/src/test/java/org/apache/struts2/rest/handler/{JacksonJsonHandlerTest.java => JacksonLibHandlerTest.java}
