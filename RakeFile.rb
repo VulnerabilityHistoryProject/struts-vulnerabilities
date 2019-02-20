@@ -7,7 +7,11 @@ namespace :pull do
 	scraper.save_cve_ymls
   end
   task :repo do
-    Dir.chdir('tmp/') do
+    dir = 'tmp/'
+    unless File.directory?(dir)
+      Dir.mkdir(dir)
+    end
+    Dir.chdir(dir) do
       `git clone https://github.com/apache/struts.git`
     end
   end
