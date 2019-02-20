@@ -1,4 +1,4 @@
-# apachestruts-vulnerabilities
+# struts-vulnerabilities
 Curated vulnerability data for vulnerabilityhistory.org
 
 ### First time setup:
