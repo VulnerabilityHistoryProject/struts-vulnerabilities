@@ -1,0 +1,12 @@
+# A "mega commit" is a commit that touched thousands of files
+# We ignore getting file information for these commits as they
+# bog down VHP unnnecessarily. Instead, we add a note here
+- commit: c01d3a92db7f71f751a0522912d24bcf4a94a1b0
+  note:  |
+    This commit is the initial import of Apache WebWork 2, which a web
+    application framework developed by OpenSymphony. WebWork was build on
+    XWork.
+- commit: 6229ad7a4726717bf594e9b4e4afa90e1e028829
+  note:  |
+    This commit merged the rest plugin into the trunk of Apache Struts. The
+    REST Plugin allows support for RESTful web applications. 
