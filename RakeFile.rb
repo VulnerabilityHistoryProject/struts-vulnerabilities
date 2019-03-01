@@ -1,4 +1,10 @@
 require_relative "scripts/scraper"
+require 'rspec/core/rake_task'
+
+desc 'Run the specs by default'
+task default: :spec
+
+RSpec::Core::RakeTask.new(:spec)
 
 namespace :pull do
   task :cves do
