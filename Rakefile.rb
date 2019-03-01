@@ -1,4 +1,5 @@
-require_relative "scripts/scraper"
+# Commented out for Travis build
+# require_relative "scripts/scraper"
 require 'rspec/core/rake_task'
 
 desc 'Run the specs by default'
@@ -7,11 +8,12 @@ task default: :spec
 RSpec::Core::RakeTask.new(:spec)
 
 namespace :pull do
-  task :cves do
-    scraper = StrutsScraper.new()
-	scraper.crawl
-	scraper.save_cve_ymls
-  end
+  # Commented out for Travis build
+  # task :cves do
+  #   scraper = StrutsScraper.new()
+	# scraper.crawl
+	# scraper.save_cve_ymls
+  # end
   task :repo do
     dir = 'tmp/'
     unless File.directory?(dir)
