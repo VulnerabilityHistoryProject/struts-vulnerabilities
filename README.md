@@ -16,3 +16,15 @@ Curated vulnerability data for vulnerabilityhistory.org
 
 ### Clone struts repo:
 1. Type `rake pull:repo`
+
+# Populate gitlog.json with any mentioned SHA in CVE yamls
+
+Use the shepherd tools. Here's an example:
+
+```sh
+vhp loadcommits mentioned --repo ~/struts/src
+```
+
+# Generate "Weeklies" Git Log Reports
+
+TODO Write these up - would prefer this use shepherd tools
