@@ -1,0 +1,14 @@
+name: Struts
+fullname: Apache Struts
+subdomain: struts
+bg_color: '#3186c3'
+project_url: https://struts.apache.org
+description: |
+  Apache Struts is an MVC web application framework in Java
+git_commit_url_prefix: https://github.com/apache/struts/commit/
+github_search_url_prefix: https://github.com/apache/struts/search?utf8=✓&q=
+github_edit_cve_url_prefix: https://github.com/VulnerabilityHistoryProject/struts-vulnerabilities/edit/dev/cves/
+vulnerabilities_description: |
+  These vulnerabilities are reported by the development team [on their website](https://cwiki.apache.org/confluence/display/WW/Security+Bulletins)
+developers_description: |
+  The following is a list of developers who are involved in code that was found to be vulnerable. Specifically, developers end up here if they were the author of a commit to code that was, at some point in time, fixed for a vulnerability. Note that this is NOT a comprehensive list.
