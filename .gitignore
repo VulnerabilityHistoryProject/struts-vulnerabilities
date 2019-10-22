@@ -1,2 +1,6 @@
-shepherd-tools
 struts
+tmp/
+!tmp/gitkeep.txt
+.byebug_history
+.DS_Store
+*.swp
