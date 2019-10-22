@@ -3,4 +3,12 @@ sudo: false
 cache: bundler
 rvm:
 - 2.5.3
+
+before_install:
+  - rm Gemfile.lock
+
+before_script:
+  - gem update --system
+  - gem update bundler
+
 script: bundle exec rake
