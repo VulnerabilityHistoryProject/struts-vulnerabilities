@@ -10,3 +10,15 @@
   note:  |
     This commit merged the rest plugin into the trunk of Apache Struts. The
     REST Plugin allows support for RESTful web applications. 
+- commit: 2b8e02d97d05a328c65dff025dfd2e02ef86c135
+  note:  |
+    They renamed the org.apache.struts.action2 to org.apache.struts2.
+- commit: f0e3ff3628cdda1c55dcca06bba6ab4aed960ec8
+  note:  |
+    Create space in the incubator for the new Webwork podling. 
+- commit: e82758a9616fbd29e5fae9c4f1095f5c9a1ca509
+  note:  |
+    They completed the maven build in this commit.
+- commit: 0c543aef318341ca9bd482e15f1637497b8a4dfd
+  note:  |
+     They moved XWork core under Struts 2 in order to simplify their release process.
