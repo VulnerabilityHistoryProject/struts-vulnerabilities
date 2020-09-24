@@ -3,3 +3,5 @@
   note: This was an initial import back in 2006.
 - commit: f0e3ff3628cdda1c55dcca06bba6ab4aed960ec8
   note: Initial commit for new Webwork poddling.
+- commit: 0c543aef318341ca9bd482e15f1637497b8a4dfd
+  note: Initial commit for maven build.
