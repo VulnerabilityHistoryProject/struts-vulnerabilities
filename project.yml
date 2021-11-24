@@ -2,6 +2,7 @@ name: Struts
 fullname: Apache Struts
 subdomain: struts
 bg_color: '#3186c3'
+fg_color: '#3f70b6'
 project_url: https://struts.apache.org
 description: |
   Apache Struts is an MVC web application framework in Java
